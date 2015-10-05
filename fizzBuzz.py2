@@ -19,7 +19,6 @@ and 'FB' for fizz buzz.
 """
 from sys import argv
 
-# read file
 
 # function to convert string to ints
 def num(s):
@@ -28,20 +27,22 @@ def num(s):
 	except ValueError:
 		return float(s)
 
-# assign fizz, buzz, then calculate fizzbuzz
+# read file
 
 fileName = argv[1]
 
 input = open(fileName)
 
+# assign fizz, buzz, then calculate fizzbuzz
 for line in input.readlines():
-	fizz, buzz, top = line.split(" ")
+	fizz, buzz, max = line.split(" ")
 	fizz = num(fizz)
 	buzz = num(buzz)
-	top =  num(top) +1
+	top =  num(max) +1
 	fizzBuzz = fizz * buzz
 	
-	for i in xrange(1, top):
+
+	for i in xrange(1,max):
 		if i % fizzBuzz == 0:
 			print ("FB"),
 		elif i % buzz == 0:
