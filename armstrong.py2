@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+"""
+Armstrong Numbers
+An Armstrong number is an n-digit number that is equal to the sum of the n'th
+powers of its digits. Determine if the input numbers are Armstrong numbers.
+"""
+
+from sys import argv
+
+file_name = argv[1]
+
+file_input = open(file_name)
+
+for number in file_input.readlines():
+    count = len(number.strip())
+    sum = 0
+    for digit in number.strip():
+        sum += int(digit) ** count
+    if sum == int(number):
+        print "True"
+    else:
+        print "False"

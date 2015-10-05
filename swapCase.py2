@@ -1,0 +1,17 @@
+#!/usr/bin/python
+
+"""
+Swap Case
+Write a program which swaps letters' case in a sentence. 
+All non-letter characters should remain the same.
+
+"""
+
+from sys import argv
+
+file_name = argv[1]
+
+input_buffer = open(file_name)
+
+for line in input_buffer.readlines():
+    print line.swapcase()

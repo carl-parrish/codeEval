@@ -1,0 +1,28 @@
+#!/usr/bin/python
+
+"""
+Beautiful Strings
+"""
+
+from sys import argv
+
+total_beauty = 0
+file_name = argv[1]
+
+file_buffer = open(file_name)
+
+for line in file_buffer.readlines():
+    #for make everything lower case
+    line = line.upper()
+
+    for character in line:
+        if character.isalpha():
+            value = 26 - (ord(character)-65)
+            #print "Caracter is: ", character , "Value is: ", value
+            total_beauty += value
+
+    print total_beauty#, "\t", line
+    total_beauty = 0
+
+
+

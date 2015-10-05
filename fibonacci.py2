@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+"""
+Fibonacci Series
+
+The Fibonacci series is defined as: F(0) = 0;
+ F(1) = 1; F(n) = F(n-1) + F(n-2) when n>1;.
+Given a positive integer 'n', print out the F(n).
+"""
+from sys import argv
+
+file_name = argv[1]
+
+file_input = open(file_name)
+
+def fibonacci(n):
+    terms = [0,1]
+    i = 2
+    while i <= n:
+        terms.append(terms[i-1]+terms[i-2])
+        i = i +1 
+    return terms[n]
+
+for number in file_input.readlines():
+    answer = fibonacci(int(number))
+    print answer
