@@ -1,3 +1,5 @@
 .idea/*
 .byebug*
 .byebug_history
+dist/*
+node_modules/*
