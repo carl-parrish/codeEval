@@ -1,0 +1,277 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--global', 'babel' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'babel', null ]
+5 verbose cache add spec babel
+6 silly cache add parsed spec { raw: 'babel',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'babel',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed babel@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'babel', range: '*', hasData: false }
+11 silly mapToRegistry name babel
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/babel
+15 verbose addNameRange registry:https://registry.npmjs.org/babel not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/babel
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 11:10:13 PM
+19 verbose request using bearer token for auth
+20 verbose request id 412592a7656cf7cb
+21 http request GET https://registry.npmjs.org/babel
+22 http 200 https://registry.npmjs.org/babel
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"EX4OK25R79PM57BKWHMWY11GC"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '195166',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sun, 19 Jul 2015 06:10:13 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sjc3125-SJC',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1437286213.414721,VS0,VE98',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving babel to /Users/cparrish/.npm/registry.npmjs.org/babel/.cache.json
+25 silly addNameRange number 2 { name: 'babel', range: '*', hasData: true }
+26 silly addNameRange versions [ 'babel',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '4.0.1',
+26 silly addNameRange     '4.0.2',
+26 silly addNameRange     '4.1.1',
+26 silly addNameRange     '4.2.0',
+26 silly addNameRange     '4.2.1',
+26 silly addNameRange     '4.3.0',
+26 silly addNameRange     '4.4.1',
+26 silly addNameRange     '4.4.2',
+26 silly addNameRange     '4.4.3',
+26 silly addNameRange     '4.4.4',
+26 silly addNameRange     '4.4.5',
+26 silly addNameRange     '4.4.6',
+26 silly addNameRange     '4.5.0',
+26 silly addNameRange     '4.5.1',
+26 silly addNameRange     '4.5.2',
+26 silly addNameRange     '4.5.3',
+26 silly addNameRange     '4.5.4',
+26 silly addNameRange     '4.5.5',
+26 silly addNameRange     '4.6.0',
+26 silly addNameRange     '4.6.1',
+26 silly addNameRange     '4.6.3',
+26 silly addNameRange     '4.6.4',
+26 silly addNameRange     '4.6.5',
+26 silly addNameRange     '4.6.6',
+26 silly addNameRange     '4.7.0',
+26 silly addNameRange     '4.7.1',
+26 silly addNameRange     '4.7.2',
+26 silly addNameRange     '4.7.3',
+26 silly addNameRange     '4.7.4',
+26 silly addNameRange     '4.7.5',
+26 silly addNameRange     '4.7.6',
+26 silly addNameRange     '4.7.7',
+26 silly addNameRange     '4.7.8',
+26 silly addNameRange     '4.7.9',
+26 silly addNameRange     '4.7.10',
+26 silly addNameRange     '4.7.11',
+26 silly addNameRange     '4.7.12',
+26 silly addNameRange     '4.7.13',
+26 silly addNameRange     '4.7.14',
+26 silly addNameRange     '4.7.15',
+26 silly addNameRange     '4.7.16',
+26 silly addNameRange     '5.0.0-beta2',
+26 silly addNameRange     '5.0.0-beta3',
+26 silly addNameRange     '5.0.0-beta4',
+26 silly addNameRange     '5.0.0',
+26 silly addNameRange     '5.0.1',
+26 silly addNameRange     '5.0.2',
+26 silly addNameRange     '5.0.3',
+26 silly addNameRange     '5.0.4',
+26 silly addNameRange     '5.0.5',
+26 silly addNameRange     '5.0.6',
+26 silly addNameRange     '5.0.7',
+26 silly addNameRange     '5.0.8',
+26 silly addNameRange     '5.0.9',
+26 silly addNameRange     '5.0.10',
+26 silly addNameRange     '5.0.11',
+26 silly addNameRange     '5.0.12',
+26 silly addNameRange     '5.0.13',
+26 silly addNameRange     '5.1.0',
+26 silly addNameRange     '5.1.1',
+26 silly addNameRange     '5.1.2',
+26 silly addNameRange     '5.1.3',
+26 silly addNameRange     '5.1.4',
+26 silly addNameRange     '5.1.5',
+26 silly addNameRange     '5.1.6',
+26 silly addNameRange     '5.1.7',
+26 silly addNameRange     '5.1.8',
+26 silly addNameRange     '5.1.9',
+26 silly addNameRange     '5.1.10',
+26 silly addNameRange     '5.1.11',
+26 silly addNameRange     '5.1.12',
+26 silly addNameRange     '5.1.13',
+26 silly addNameRange     '5.2.0',
+26 silly addNameRange     '5.2.1',
+26 silly addNameRange     '5.2.2',
+26 silly addNameRange     '5.2.3',
+26 silly addNameRange     '5.2.4',
+26 silly addNameRange     '5.2.5',
+26 silly addNameRange     '5.2.6',
+26 silly addNameRange     '5.2.7',
+26 silly addNameRange     '5.2.9',
+26 silly addNameRange     '5.2.10',
+26 silly addNameRange     '5.2.11',
+26 silly addNameRange     '5.2.12',
+26 silly addNameRange     '5.2.13',
+26 silly addNameRange     '5.2.14',
+26 silly addNameRange     '5.2.15',
+26 silly addNameRange     '5.2.16',
+26 silly addNameRange     '5.2.17',
+26 silly addNameRange     '5.3.0',
+26 silly addNameRange     '5.3.1',
+26 silly addNameRange     '5.3.2',
+26 silly addNameRange     '5.3.3',
+26 silly addNameRange     '5.4.0',
+26 silly addNameRange     '5.4.1',
+26 silly addNameRange     '5.4.2',
+26 silly addNameRange     '5.4.3',
+26 silly addNameRange     '5.4.4',
+26 silly addNameRange     '5.4.5',
+26 silly addNameRange     '5.4.6',
+26 silly addNameRange     '5.4.7',
+26 silly addNameRange     '5.5.0',
+26 silly addNameRange     '5.5.1',
+26 silly addNameRange     '5.5.2',
+26 silly addNameRange     '5.5.3',
+26 silly addNameRange     '5.5.4',
+26 silly addNameRange     '5.5.5',
+26 silly addNameRange     '5.5.6',
+26 silly addNameRange     '5.5.7',
+26 silly addNameRange     '5.5.8',
+26 silly addNameRange     '5.6.1',
+26 silly addNameRange     '5.6.2',
+26 silly addNameRange     '5.6.3',
+26 silly addNameRange     '5.6.4',
+26 silly addNameRange     '5.6.5',
+26 silly addNameRange     '5.6.6',
+26 silly addNameRange     '5.6.7',
+26 silly addNameRange     '5.6.10',
+26 silly addNameRange     '5.6.11',
+26 silly addNameRange     '5.6.12',
+26 silly addNameRange     '5.6.14',
+26 silly addNameRange     '5.6.23' ] ]
+27 verbose addNamed babel@5.6.23
+28 silly addNamed semver.valid 5.6.23
+29 silly addNamed semver.validRange 5.6.23
+30 silly mapToRegistry name babel
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/babel
+34 verbose addRemoteTarball https://registry.npmjs.org/babel/-/babel-5.6.23.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel/-/babel-5.6.23.tgz',
+35 verbose addRemoteTarball   '4917bfd73ccca2710c4a0a6ca4a2eb4d5847aefd' ]
+36 info retry fetch attempt 1 at 11:10:13 PM
+37 info attempt registry request try #1 at 11:10:13 PM
+38 http fetch GET https://registry.npmjs.org/babel/-/babel-5.6.23.tgz
+39 verbose request using bearer token for auth
+40 http fetch 200 https://registry.npmjs.org/babel/-/babel-5.6.23.tgz
+41 silly fetchAndShaCheck shasum 4917bfd73ccca2710c4a0a6ca4a2eb4d5847aefd
+42 verbose addTmpTarball /var/folders/r7/wvsnh3xs02g3mtvhvjsf2gj40000gn/T/npm-19195-bb848f4e/registry.npmjs.org/babel/-/babel-5.6.23.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for babel@5.6.23
+44 silly cache afterAdd babel@5.6.23
+45 verbose afterAdd /Users/cparrish/.npm/babel/5.6.23/package/package.json not in flight; writing
+46 verbose afterAdd /Users/cparrish/.npm/babel/5.6.23/package/package.json written
+47 silly install resolved [ { name: 'babel',
+47 silly install resolved     version: '5.6.23',
+47 silly install resolved     description: 'Turn ES6 code into readable vanilla ES5 with source maps',
+47 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+47 silly install resolved     homepage: 'https://babeljs.io/',
+47 silly install resolved     license: 'MIT',
+47 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/babel/babel.git' },
+47 silly install resolved     preferGlobal: true,
+47 silly install resolved     dependencies:
+47 silly install resolved      { 'babel-core': '^5.6.21',
+47 silly install resolved        chokidar: '^1.0.0',
+47 silly install resolved        commander: '^2.6.0',
+47 silly install resolved        'convert-source-map': '^1.1.0',
+47 silly install resolved        'fs-readdir-recursive': '^0.1.0',
+47 silly install resolved        glob: '^5.0.5',
+47 silly install resolved        lodash: '^3.2.0',
+47 silly install resolved        'output-file-sync': '^1.1.0',
+47 silly install resolved        'path-exists': '^1.0.0',
+47 silly install resolved        'path-is-absolute': '^1.0.0',
+47 silly install resolved        'source-map': '^0.4.0',
+47 silly install resolved        slash: '^1.0.0' },
+47 silly install resolved     bin:
+47 silly install resolved      { babel: './bin/babel.js',
+47 silly install resolved        'babel-node': './bin/babel-node.js',
+47 silly install resolved        'babel-external-helpers': './bin/babel-external-helpers.js',
+47 silly install resolved        'babel-plugin': './bin/babel-plugin.js' },
+47 silly install resolved     bugs: { url: 'https://github.com/babel/babel/issues' },
+47 silly install resolved     _id: 'babel@5.6.23',
+47 silly install resolved     scripts: {},
+47 silly install resolved     _shasum: '4917bfd73ccca2710c4a0a6ca4a2eb4d5847aefd',
+47 silly install resolved     _from: 'babel@*',
+47 silly install resolved     _npmVersion: '3.1.0',
+47 silly install resolved     _nodeVersion: '2.0.0',
+47 silly install resolved     _npmUser: { name: 'sebmck', email: 'sebmck@gmail.com' },
+47 silly install resolved     maintainers: [ [Object] ],
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '4917bfd73ccca2710c4a0a6ca4a2eb4d5847aefd',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/babel/-/babel-5.6.23.tgz' },
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/babel/-/babel-5.6.23.tgz' } ]
+48 info install babel@5.6.23 into /usr/local/lib
+49 info installOne babel@5.6.23
+50 verbose installOne of babel to /usr/local/lib not in flight; installing
+51 verbose lock using /Users/cparrish/.npm/_locks/babel-5417f13f3f034c23.lock for /usr/local/lib/node_modules/babel
+52 silly install write writing babel 5.6.23 to /usr/local/lib/node_modules/babel
+53 silly cache addNamed cb babel@5.6.23
+54 verbose unbuild lib/node_modules/babel
+55 verbose gentlyRm vacuuming /usr/local/lib/node_modules/babel
+56 verbose tar unpack /Users/cparrish/.npm/babel/5.6.23/package.tgz
+57 verbose tar unpacking to /usr/local/lib/node_modules/babel
+58 verbose gentlyRm vacuuming /usr/local/lib/node_modules/babel
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 error tar.unpack untar error /Users/cparrish/.npm/babel/5.6.23/package.tgz
+61 verbose unlock done using /Users/cparrish/.npm/_locks/babel-5417f13f3f034c23.lock for /usr/local/lib/node_modules/babel
+62 verbose fstream_path /usr/local/lib/node_modules/babel
+63 verbose fstream_type Directory
+64 verbose fstream_class DirWriter
+65 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/babel'
+65 verbose stack     at Error (native)
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+66 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+67 verbose cwd /Users/cparrish/bin/codeEval
+68 error Darwin 14.4.0
+69 error argv "node" "/usr/local/bin/npm" "install" "--global" "babel"
+70 error node v0.12.0
+71 error npm  v2.5.1
+72 error path /usr/local/lib/node_modules/babel
+73 error code EACCES
+74 error errno -13
+75 error Error: EACCES, mkdir '/usr/local/lib/node_modules/babel'
+75 error     at Error (native)
+75 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/babel']
+75 error   errno: -13,
+75 error   code: 'EACCES',
+75 error   path: '/usr/local/lib/node_modules/babel',
+75 error   fstream_type: 'Directory',
+75 error   fstream_path: '/usr/local/lib/node_modules/babel',
+75 error   fstream_class: 'DirWriter',
+75 error   fstream_stack:
+75 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+75 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+75 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+76 error Please try running this command again as root/Administrator.
+77 verbose exit [ -13, true ]
+78 verbose unbuild lib/node_modules/babel
+79 verbose gentlyRm vacuuming /usr/local/lib/node_modules/babel
