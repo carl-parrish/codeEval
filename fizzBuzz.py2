@@ -21,6 +21,13 @@ from sys import argv
 
 # read file
 
+# function to convert string to ints
+def num(s):
+	try:
+		return int(s)
+	except ValueError:
+		return float(s)
+
 # assign fizz, buzz, then calculate fizzbuzz
 
 fileName = argv[1]
@@ -28,13 +35,13 @@ fileName = argv[1]
 input = open(fileName)
 
 for line in input.readlines():
-	fizz, buzz, max = line.split(" ")
-	fizz = int(fizz)
-	buzz = int(buzz)
-	max = int(max) +1
+	fizz, buzz, top = line.split(" ")
+	fizz = num(fizz)
+	buzz = num(buzz)
+	top =  num(top) +1
 	fizzBuzz = fizz * buzz
 	
-	for i in xrange(1,max):
+	for i in xrange(1, top):
 		if i % fizzBuzz == 0:
 			print ("FB"),
 		elif i % buzz == 0:
