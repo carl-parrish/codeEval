@@ -3,3 +3,4 @@
 .byebug_history
 dist/*
 node_modules/*
+.byebug*
