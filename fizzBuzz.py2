@@ -38,7 +38,7 @@ for line in input.readlines():
 	fizz, buzz, max = line.split(" ")
 	fizz = num(fizz)
 	buzz = num(buzz)
-	top =  num(max) +1
+	max =  num(max) +1
 	fizzBuzz = fizz * buzz
 	
 
